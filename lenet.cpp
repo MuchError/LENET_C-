@@ -75,7 +75,7 @@ int main() {
 		std::cout << "out[" << k << "] = " << Cout[k] << std::endl;
 	}	
 	return 0;
-}
+} 
 
 //int main() {
 //	//²âÊÔ
