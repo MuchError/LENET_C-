@@ -2,16 +2,6 @@
 
 void conv1(f_32 in[32][32], f_32 Kw_1[6][5][5], f_32 Kb_1[6], f_32 out[28][28][6])
 {
-    for (int k = 0; k < 6; k++)
-    {
-        for (int x = 0; x < 28; x++)
-        {
-            for (int y = 0; y < 28; y++)
-            {
-                out[x][y][k] = 0;
-            }
-        }
-    } 
 
     for (int i = 0; i < 28; i++) {
         for (int j = 0; j < 28; j++) { 
@@ -39,16 +29,6 @@ void conv1(f_32 in[32][32], f_32 Kw_1[6][5][5], f_32 Kb_1[6], f_32 out[28][28][6
 
 void conv2(f_32 in[14][14][6], f_32 Kw_2[16][6][5][5], f_32 Kb_2[16], f_32 out[10][10][16])
 {
-    for (int k = 0; k < 16; k++)
-    {
-        for (int x = 0; x < 10; x++)
-        {
-            for (int y = 0; y < 10; y++)
-            {
-                out[x][y][k] = 0;
-            }
-        }
-    }
 
     for (int i = 0; i < 10; i++) 
     {
@@ -93,16 +73,6 @@ void conv2(f_32 in[14][14][6], f_32 Kw_2[16][6][5][5], f_32 Kb_2[16], f_32 out[1
 
 void conv3(f_32 in[5][5][16], f_32 Kw_3[120][16][5][5], f_32 Kb_3[120], f_32 out[1][1][120])
 {
-    for (int k = 0; k < 120; k++)
-    {
-        for (int x = 0; x < 1; x++)
-        {
-            for (int y = 0; y < 1; y++)
-            {
-                out[x][y][k] = 0;
-            }
-        }
-    }
 
     for (int i = 0; i < 1; i++)
     {

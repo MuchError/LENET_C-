@@ -66,7 +66,7 @@ void lenet(f_32 in[32][32], f_32 Cout[10])
 int main() {
 
 	f_32 in[32][32] = {
-		#include "in1.h"
+		#include "in9.h"
 	};
 	
 	f_32 Cout[10];
