@@ -151,6 +151,9 @@
     <ClCompile Include="..\relu.cpp" />
     <ClCompile Include="..\void_test.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\in_turn_to_tensor.py" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
